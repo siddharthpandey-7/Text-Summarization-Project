@@ -51,9 +51,32 @@ text_summarization_project/
 ├── app.py                 # FastAPI backend
 ├── static/
 │   └── index.html         # Frontend UI
-├── t5_samsum/             # Fine-tuned model & tokenizer
-├── venv/                  # Virtual environment
+├── venv/                  # Virtual environment (ignored in git)
 └── README.md
+```
+
+---
+
+## 🔽 Model Weights (Important)
+
+The trained T5 model is **not included in this repository** due to GitHub's file size limits.
+
+### How to obtain the model
+
+#### Option 1: Train the model yourself (recommended for learning)
+- Train the model using the SAMSum dataset (Kaggle/Colab)
+- Save the trained model as:
+```
+  t5_samsum/
+```
+- Place the folder in the project root before running the app
+
+#### Option 2: Load from Hugging Face (recommended for deployment)
+```python
+from transformers import T5Tokenizer, T5ForConditionalGeneration
+
+tokenizer = T5Tokenizer.from_pretrained("your-hf-username/t5-samsum")
+model = T5ForConditionalGeneration.from_pretrained("your-hf-username/t5-samsum")
 ```
 
 ---
@@ -137,11 +160,11 @@ Amanda and John are meeting tomorrow at 10 AM. John will pick Amanda up by 9:45.
 
 ## 📌 Future Improvements
 
-- Add authentication
-- Improve UI design
 - Deploy on Hugging Face Spaces
 - Add ROUGE score visualization
+- Improve UI design
 - Support long-document summarization
+- Add authentication
 
 ---
 
@@ -157,7 +180,7 @@ Aspiring Machine Learning Engineer
 
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [SAMSum Dataset](https://huggingface.co/datasets/samsum)
-- FastAPI community
+- [FastAPI](https://fastapi.tiangolo.com/)
 ```
 
 ---
