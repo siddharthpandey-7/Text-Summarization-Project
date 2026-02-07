@@ -180,11 +180,13 @@ Amanda and John are meeting tomorrow at 10 AM. John will pick Amanda up by 9:45.
 
 ---
 
-## 👤 Author
+## 📬 Contact & Support
 
-**Siddharth Kumar Pandey**  
-BTech CSE (AI/ML)  
-Aspiring Machine Learning Engineer
+- **GitHub**: https://github.com/siddharthpandey-7/Pneumonia_Detection
+- **Email**: siddharthpandey97825@gmail.com
+- **LinkedIn**: https://www.linkedin.com/in/siddharth-kumar-pandey-003065343/
+
+Feel free to ⭐ this repository if you find it helpful!
 
 ---
 
@@ -193,10 +195,3 @@ Aspiring Machine Learning Engineer
 - [Hugging Face Transformers](https://huggingface.co/transformers/)
 - [SAMSum Dataset](https://huggingface.co/datasets/samsum)
 - [FastAPI](https://fastapi.tiangolo.com/)
-```
-
----
-
-**Commit message:**
-```
-📝 Add comprehensive README with deployment info
