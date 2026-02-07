@@ -182,7 +182,7 @@ Amanda and John are meeting tomorrow at 10 AM. John will pick Amanda up by 9:45.
 
 ## 📬 Contact & Support
 
-- **GitHub**: https://github.com/siddharthpandey-7/Pneumonia_Detection
+- **GitHub**: https://github.com/siddharthpandey-7/Text-Summarization-Project
 - **Email**: siddharthpandey97825@gmail.com
 - **LinkedIn**: https://www.linkedin.com/in/siddharth-kumar-pandey-003065343/
 
